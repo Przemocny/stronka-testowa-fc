@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import TopBar from './sections/TopBar'
+import Attention from './sections/Attention'
+import Team from './sections/Team'
+import Offer from './sections/Offer'
+import Footer from './sections/Footer'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* wywołanie komponentu */}
+       <TopBar/>
+       <Attention/>
+       <Team/>
+       <Offer/>
+       <Footer/>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.team{}
+
+.team-item:nth-child(even){
+    text-align:left;
+}
+.team-item:nth-child(odd){
+    text-align:right;
+}
+
+.team-item img{
+    max-width:100%;
+    height:auto;
+}
+
+
+.team-item h4{
+    font-weight:bold;
+}
+
+
+.team-item h6{
+}

@@ -1,0 +1,22 @@
+.offer{}
+.offer-item{
+    display:block;
+    text-align:center;
+    height:300px;
+    margin-bottom:1rem;
+}
+
+.offer-item-inner{
+    height:300px;
+    background:gray;
+}
+
+.offer-item-inner > div{
+    display:block;
+    width:100%;
+}
+
+.offer-item-inner h4{
+    margin:0 auto;
+    display:block;
+}

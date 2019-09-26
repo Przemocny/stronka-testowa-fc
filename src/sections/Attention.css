@@ -1,0 +1,8 @@
+.attention{
+    height: calc(100vh - 64px);
+    overflow: hidden;
+    background: url(https://picsum.photos/1920/1080);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
