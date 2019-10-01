@@ -42,12 +42,10 @@ const SingleOffer = ({name, isNew})=>{
                 <div>
                     <h4>{name}</h4>
                     {isNew && <h6>NOWOŚĆ</h6>}
-                    {isNew ? <h6>NOWOŚĆ</h6> : <h6>NIE NOWOŚĆ</h6>}
                 </div>
             </div>
         </div>)
 }
-
 
 const Offer = ()=>{
     return (
