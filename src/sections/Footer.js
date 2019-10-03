@@ -102,8 +102,6 @@ class Footer extends Component {
                             </button>
                         </form>
                         
-                        {JSON.stringify(this.state)}
-        
                         <br />
                         <br />
                         <br />
